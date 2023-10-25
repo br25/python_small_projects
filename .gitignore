@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore pipenv and poetry virtual environments
+Pipfile.lock
+poetry.lock
+
+# Python cache files
+__pycache__/
